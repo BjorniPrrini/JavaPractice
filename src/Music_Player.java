@@ -14,7 +14,7 @@ public class Music_Player {
 
         Scanner scanner = new Scanner(System.in);
 
-        String filePath = "music.wav";
+        String filePath = "ringtone.wav";
         File file = new File(filePath);
 
         try(AudioInputStream audioStream = AudioSystem.getAudioInputStream(file)){
